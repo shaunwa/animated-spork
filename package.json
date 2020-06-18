@@ -1,0 +1,26 @@
+{
+  "name": "buy-and-sell-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx nodemon --exec npx babel-node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/runtime": "7.10.2",
+    "@hapi/boom": "9.1.0",
+    "@hapi/hapi": "19.1.1",
+    "mysql": "2.18.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.10.2",
+    "@babel/node": "7.10.1",
+    "@babel/plugin-transform-runtime": "7.10.1",
+    "@babel/preset-env": "7.10.2",
+    "nodemon": "2.0.4"
+  }
+}
